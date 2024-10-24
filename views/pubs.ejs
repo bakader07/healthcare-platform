@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>TIASM</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta content="" name="keywords" />
+		<meta content="" name="description" />
+
+		<!-- Favicon -->
+		<link href="images/favicon.ico" rel="icon" />
+
+		<!-- Google Web Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Icon Font Stylesheet -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
+
+		<!-- Libraries Stylesheet -->
+		<link href="lib/animate/animate.min.css" rel="stylesheet" />
+		<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+		<link
+			href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+			rel="stylesheet"
+		/>
+
+		<!-- Customized Bootstrap Stylesheet -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Template Stylesheet -->
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- Spinner Start -->
+		<div
+			id="spinner"
+			class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+		>
+			<div
+				class="spinner-grow text-primary"
+				style="width: 3rem; height: 3rem"
+				role="status"
+			>
+				<span class="sr-only">Loading...</span>
+			</div>
+		</div>
+		<!-- Spinner End -->
+
+		<!-- Page Header Start -->
+		<%- include("./partials/header.ejs") %>
+		<!-- Page Header End -->
+
+		<!-- papers Start -->
+		<div class="container-xxl py-5">
+			<div class="container">
+				<div
+					class="text-center mx-auto mb-5 wow fadeInUp"
+					data-wow-delay="0.1s"
+					style="max-width: 600px"
+				>
+					<p class="d-inline-block border rounded-pill py-1 px-4">Papers</p>
+					<h1>Published Scientific Papers</h1>
+				</div>
+				<div class="row g-4">
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/Diabet.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Diabetic Retinopathy Detection Using Deep Learning
+							</h4>
+							<p class="mb-4 p-2">
+								Diabetes Mellitus (DM) is one of the well known metabolic
+								illnesses. It occurs due to an excessive high level of the
+								body’s blood sugar. I fact, this disease affects 463 million
+								people worldwide, and this number is projected to reach 700
+								million by 2045, making it a serious public health problem.
+								Diabetic Retinopathy (DR) is the most common specific
+								complication of DM. DR is a leading cause of blindness among
+								working-age adults. Early identification and treatment of DR can
+								lower the risk of vision loss greatly. Since a manual diagnosis
+								is prone to misdiagnosis and requires more effort, the automated
+								methods for DR detection are cost and time effective. Deep
+								learning is becoming a popular strategy to improve solutions in
+								a range of fields, and in particular medical image analysis and
+								classifications. In this paper, we are interested to propose a
+								new convolutional neural network (CNN) for color fundus images.
+								These images are pre-processed with various filters before being
+								fed into the training model. Experimental results, in this work,
+								are very encouraging and they outperform results of similar
+								works in literature.
+							</p>
+							<h5 class="mb-3 p-2">
+								Fellah, K.M., Tigane, S., Kahloul, L. (2023)
+							</h5>
+
+							<a class="btn" href="https://doi.org/10.1007/978-3-031-18516-8_17"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/Bone.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Paediatric Bone Age Assessment from Hand X-ray Using Deep
+								Learning Approach
+							</h4>
+							<p class="mb-4">
+								Bone age assessments are methods that doctors use in pediatric
+								medicine. They are used to assess the growth of children by
+								analyzing X-ray images. This work focuses on the development of
+								a deep learning model to estimate from X-ray images. Such a
+								model would avoid the fallacies of subjective methods and raise
+								the accuracy of the assessment. In our work, the model is based
+								on convolutional neural networks (CNN) and is composed of two
+								steps: a preprocessing step generating image masks, and a
+								prediction step that uses these masks to generate the
+								assessment. The model is trained and tested using a public
+								Radiological Society of North America(RSNA) bone age dataset.
+								Finally, experimental results demonstrate the effectiveness of
+								the proposed approach compared to similar works in the
+								literature.
+							</p>
+							<h5 class="mb-3">Zerari, A., Djedidi, O., Kahloul, L.</h5>
+							<a
+								class="btn"
+								href="https://link.springer.com/chapter/10.1007/978-3-031-12097-8_32"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/pneumonia.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								A Deep Learning Approach for the Diabetic Retinopathy Detection
+							</h4>
+							<p class="mb-4">
+								Diabetic retinopathy is a severe retinal disease that can blur
+								or distort the vision of the patient. It is one of the leading
+								causes of blindness. Early detection of diabetic retinopathy can
+								significantly help in the treatment. The recent development in
+								the field of AI and especially Deep learning provides ambitious
+								solutions that can be exploited to predict, forecast and
+								diagnose several diseases in their early phases. This work aims
+								towards finding an automatic way to classify a given set of
+								retina images in order to detect the diabetic retinopathy. Deep
+								learning concepts have been used with a convolutional neural
+								network (CNN) algorithm to build a multi-classification model
+								that can detect and classify disease levels automatically. In
+								this study, a CNN architecture has been applied with several
+								parameters on a dataset of diabetic retinopathy with different
+								structures. At the current stage of this work, obtained results
+								are highly encouraging.
+							</p>
+							<h5 class="mb-3">
+								Sebti, R., Zroug, S., Kahloul, L., Benharzallah, S.
+							</h5>
+
+							<a class="btn" href=""
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/Bone.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Paediatric Bone Age Assessment from Hand X-ray Using Deep
+								Learning Approach
+							</h4>
+							<p class="mb-4">
+								Bone age assessments are methods that doctors use in pediatric
+								medicine. They are used to assess the growth of children by
+								analyzing X-ray images. This work focuses on the development of
+								a deep learning model to estimate from X-ray images. Such a
+								model would avoid the fallacies of subjective methods and raise
+								the accuracy of the assessment. In our work, the model is based
+								on convolutional neural networks (CNN) and is composed of two
+								steps: a preprocessing step generating image masks, and a
+								prediction step that uses these masks to generate the
+								assessment. The model is trained and tested using a public
+								Radiological Society of North America(RSNA) bone age dataset.
+								Finally, experimental results demonstrate the effectiveness of
+								the proposed approach compared to similar works in the
+								literature.
+							</p>
+							<h5 class="mb-3">Houfani, D., Slatnia, S., Kazar, O.</h5>
+
+							<a
+								class="btn"
+								href="https://link.springer.com/chapter/10.1007/978-3-031-12097-8_32"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/cancer.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Machine Learning Techniques for Breast Cancer Diagnosis:
+								Literature Review
+							</h4>
+							<p class="mb-4">
+								Breast cancer is one of major diseases that cause high number of
+								women’s death. To decrease these numbers, early diagnosis is an
+								important task in medical process. Machine learning (ML)
+								technics are an effective way to classify data especially in
+								medical field, where those methods are widely used in diagnosis
+								and decision making. In this paper, we present a review of the
+								most recent publications that employ Machine Learning a
+								pproaches in breast cancer diagnosis. The classification models
+								discussed here are based on various ML techniques applied on
+								different datasets.
+							</p>
+							<h5 class="mb-3">
+								Mabrouk, R., Mahmoudi, R., Ammari, A., Saouli, R.
+							</h5>
+
+							<a
+								class="btn"
+								href="https://link.springer.com/chapter/10.1007/978-3-031-12097-8_32"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/block.jpeg');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Blockchain-based Multi-Diagnosis Deep Learning Application for
+								Various Diseases Classification
+							</h4>
+							<p class="mb-4">
+								Misdiagnosis is a critical issue in healthcare, which can lead
+								to severe consequences for patients, in- cluding delayed or
+								inappropriate treatment, unneces- sary procedures, psychological
+								distress, financial bur- den, and legal implications. To
+								mitigate this issue, we propose using deep learning algorithms
+								to improve diag- nostic accuracy. However, building accurate
+								deep learn- ing models for medical diagnosis requires
+								substantial amounts of high-quality data, which can be challeng-
+								ing for individual healthcare sectors or organizations to
+								acquire. Therefore, combining data from multiple sources to
+								create a diverse dataset for efficient train- ing is needed.
+								However, sharing medical data between different healthcare
+								sectors can be problematic from a security standpoint due to
+								sensitive information and privacy laws. To address these
+								challenges, we propose using Blockchain technology to provide a
+								secure, de- centralized, and privacy-respecting way to share
+								locally trained deep learning models instead of the data itself.
+								Our proposed method of model ensembling, which com- bines the
+								weights of several local deep learning models to build a single
+								global model, that enables accurate diagnosis of complex medical
+								conditions across multi- ple locations while preserving patient
+								privacy and data security. Our research demonstrates the
+								effectiveness of this approach in accurately diagnosing three
+								diseases (Breast cancer, Lung cancer, and Diabetes) with high
+								accuracy rates, surpassing the accuracy of local models and
+								building a multi-diagnosis application.
+							</p>
+							<h5 class="mb-3">
+								Hakima Rym Rahal, Sihem Slatnia, Okba Kazar et al.
+							</h5>
+							<a
+								class="btn"
+								href="https://www.researchsquare.com/article/rs-2860508/v1"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/iot.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								PDeep learning and metaheuristics application in internet of
+								things: A literature review
+							</h4>
+							<p class="mb-4">
+								Nowadays, every kind of devices with different sizes and shapes,
+								from lamp to kitchen appliances and industrial machines, are
+								connected and shares information digitally in large scale.
+								Despite this tendency to use Internet in such gadgets, vast
+								amounts of data are generated creating new challenges for
+								researchers to analyze and control them. On the other side, Deep
+								Learning (DL) is an appropriate tool for dealing with Internet
+								of Things (IoT) needs, such as analyzing data, making
+								predictions, classifying data. Acquiring the most accurate
+								neural network inside a sensible run-time is a challenge.
+								However, metaheuristics are the key to the success of the
+								application of DL on IoT big data due to non-deterministic
+								polynomial time (NP hard) problems in these areas. Many papers
+								were published about metaheuristic in optimizing deep leaning
+								models, but the literature lacks a study that precisely
+								investigate the relationship between IoT, deep learning and
+								metaheuristic. In this paper, a review of the metaheuristic's
+								usages in the realm of IoT are presented.
+							</p>
+							<h5 class="mb-3">
+								Mohamed Akram khelili, Sihem slatnia, Okba kazar, Abdelhak
+								merizig, and Seyed ali mirjalili
+							</h5>
+							<a
+								class="btn"
+								href="https://www.sciencedirect.com/science/article/abs/pii/S0141933123000388?via%3Dihub"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/cancer.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								An Improved Model for Breast Cancer Diagnosis by Combining PCA
+								and Logistic Regression Techniques
+							</h4>
+							<p class="mb-4">
+								Breast cancer is weighed one of the most life-threatening
+								illnesses confronting women. It happens when the multiplication
+								of cells in breast tissue is uncontrollable. Several studies
+								have been performed in the healthcare field for early breast
+								cancer diagnosis. However, traditional methods can generate
+								incomplete or misleading outcomes. To overcome these
+								limitations, computer-aided diagnosis (CAD) systems are
+								extensively exploited in the healthcare domain. It is designed
+								to improve accuracy, decrease complexity, and reduce
+								misclassification costs. The goal of this study is to present a
+								breast cancer CAD system based on combining the Principal
+								Component Analysis (PCA) method for feature reduction and
+								Logistic Regression (LR) for BC tumors classification. The
+								experiments have been conducted on Wisconsin Diagnosis Breast
+								Cancer (WDBC) and Wisconsin Original Breast Cancer (WOBC)
+								datasets from UCI repository using different training and
+								testing subsets. Moreover, we carried out extensive comparisons
+								of our approach with other existing approaches. Multiple metrics
+								like precision, F1 score, recall, accuracy, and Area Under Curve
+								(AUC) were used in this study. Experimental results indicate
+								that the proposed approach records a remarkable performance rate
+								with an accuracy of 1.00 and 0.98 for WDBC and WOBC respectively
+								and outperforms the previous works by decreasing the number of
+								features, improving the data quality, and reducing the response
+								time.
+							</p>
+							<h5 class="mb-3">
+								.Houfani, Djihane; Slatnia, Sihem; Kazar, Okba; Remadna, Ikram;
+								Saouli, Hamza; Ortiz, Guadalupe; Merizig, Abdelhak.
+							</h5>
+							<a
+								class="btn"
+								href="https://journal.uob.edu.bh/handle/123456789/4760"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/clinical.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Artificial intelligence in healthcare: a review on predicting
+								clinical needs
+							</h4>
+							<p class="mb-4">
+								Artificial Intelligence is revolutionizing the world. In the
+								last decades, it is applied in almost all fields especially in
+								medical prediction. Researchers in artificial intelligence have
+								exploited predictive approaches in the medical sector for its
+								vital importance in the process of decision making. Medical
+								prediction aims to estimate the probability of developing a
+								disease, to predict survivability and the spread of a disease in
+								an area. Prediction is at the core of modern evidence-based
+								medicine, and healthcare is one of the largest and most rapidly
+								growing segments of AI. Application of technologies such as
+								genomics, biotechnology, wearable sensors, and AI allows to:
+								increase availability of healthcare data and rapid progress of
+								analytics techniques and make the foundation of precision
+								medicine; progress in detecting pathologies and avoid subjecting
+								patients to intrusive examinations; make an adapted diagnosis
+								and therapeutic strategy to the patient’s need, his environment
+								and his way of life. In this research, an overview of applied
+								methods on the management of diseases is presented. The most
+								used methods are Artificial Intelligence methods such as machine
+								learning and deep learning techniques which have improved
+								diagnosis and prognosis efficiency.
+							</p>
+							<h5 class="mb-3">
+								Djihane Houfani, Sihem Slatnia, Okba Kazar, Hamza Saouli &
+								Abdelhak Merizig
+							</h5>
+							<a
+								class="btn"
+								href="https://www.tandfonline.com/doi/full/10.1080/20479700.2021.1886478"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/covid.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								IoMT-fog-cloud based architecture for Covid-19 detection
+							</h4>
+							<p class="mb-4">
+								Nowadays, coronavirus disease 2019 (COVID-19) is the world-wide
+								pandemic due to its mutation over time. Several works done for
+								covid-19 detection using different techniques however, the use
+								of small datasets and the lack of validation tests still limit
+								their works. Also, they depend only on the increasing the
+								accuracy and the precision of the model without giving attention
+								to their complexity which is one of the main conditions in the
+								healthcare application. Moreover, the majority of healthcare
+								applications with cloud computing use centralization
+								transmission process of various and vast volumes of information
+								what make the privacy and security of personal patient’s data
+								easy for hacking. Furthermore, the traditional architecture of
+								the cloud showed many weaknesses such as the latency and the low
+								persistent performance.
+							</p>
+							<h5 class="mb-3">
+								M.A. Khelili, S. Slatnia, O. Kazar, S. Harous
+							</h5>
+							<a
+								class="btn"
+								href="https://www.sciencedirect.com/science/article/pii/S1746809422002373?via%3Dihub"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/covid.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Covid-19 Variants and Vaccines: An Overview
+							</h4>
+							<p class="mb-4">
+								Coronavirus disease 2019 (COVID-19) is the highly contagious
+								viral illness caused by severe acute respiratory syndrome
+								coronavirus 2 (SARS-CoV-2) and Middle Eastern Respiratory
+								Syndrome (MERS) appeared in Wuhan, Hubei Province, China, in
+								late December 2019. COVID-19 considered as worldwide pandemic
+								because of their rapid prevalence in whole world and their
+								catastrophic impact on various disciplines such as economy,
+								industry, education, etc. (Marco Cascella, 2021). Moreover,
+								according to World Health Organization (WHO), COVID-19 takes
+								life of more than 4.47 million people and it would destroy the
+								livelihoods people health systems because it is spread through
+								close contact with infected people and could also be transmitted
+								by asymptomatic patients (kern, 2021). The most characteristics
+								of the COVID-19 are Fever, Dry cough, Fatigue. However, there
+								are other less common symptoms such as Loss of taste or smell,
+								Nasal congestion, Conjunctivitis (also known as red eyes), Sore
+								throat, Headache, Muscle or joint pain, Different types of skin
+								rash, Nausea or vomiting, Diarrhea, Chills or dizziness (Maladie
+								à coronavirus (COVID-19) : Symptômes et traitement, 2021). Since
+								SARS-CoV-2 affected the Ribonucleic (RNA) and deoxyribonucleic
+								acids (DNA), Reverse Transmission Polymerase Chain Reaction (RT-
+								PCR) was the gold standard method for diagnosing Covid-19
+								(Alazab, 2020). RT-PCR tests are performed on clinical research
+								samples of nasal secretions by inserting a swab into the nostril
+								and gently moving it into the nasopharynx to collect secretions
+								(Alazab, 2020). Meanwhile, some patients get negative tests even
+								though they had abnormality in their chest radiography. Chest
+								radiography has great results for important clinical findings
+								such as computed tomography (CT) scans and X-rays images. They
+								frequently used for diagnosing Pneumonia and other chest
+								diseases. Due to their great impact in the medical care
+								worldwide, CT scans and X-rays were highly recommended for the
+								detection of Covid-19 (Jain, 2020).
+							</p>
+							<h5 class="mb-3">
+								Mohamed Akram KHELILI, S Sihem, K Okba, M Ozaslan, Y Junejo
+							</h5>
+							<a
+								class="btn"
+								href="https://www.isres.org/books/chapters/CSBET2021_21_03-01-2022.pdf"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/clinical.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Clinical-Guided Strategy Towards a Spatio-Temporal Cardiac MRI
+								Right Ventricular Short-Axis (ST-CMRI-RVSA) Labeled Dataset
+							</h4>
+							<p class="mb-4">
+								The right ventricular (RV) segmentation is essential for cardiac
+								diagnosis. However, it is hindered by many anatomical and
+								imaging issues. With the emergence of artificial intelligence,
+								the RV segmentation approaches are moving towards learning-based
+								techniques. To elaborate these methods, having a sufficient,
+								large, and labeled data are essential. To our knowledge, only
+								few public datasets are prepared specifically to tackle RV
+								segmentation. Therefore, the current work attempts to provide a
+								clinical-guided strategy to create, from scratch, a RV labeled
+								dataset. In this paper, a personalized workflow is proposed to
+								cover the entire steps required to extract and annotate the most
+								informative slices starting by full Magnetic Resonance Imaging
+								MRI sequences. For this purpose, 400 human cardiac MRI scans are
+								curated and prepared. The provided pipeline is applied to
+								prepare imaging set that can be either annotated for supervised
+								techniques of kept unlabeled for unsupervised or semi-supervised
+								methods. The ImageJ segmentation tool is used in this work to
+								perform the labeling tasks. A set of 250 subjects is prepared
+								following the proposed workflow and labeled using the ImageJ
+								segmentation tool with a total of 5868 images. A complementary
+								unlabeled dataset of 3636 images is automatically retrieved from
+								150 patients’ exams. In the medical industry, imaging data are a
+								real treasure that needs to be handled to jump forward with
+								computer-aided techniques. Thus, a detailed workflow to prepare
+								a RV labeled dataset is provided. This dataset can serve to
+								address the RV segmentation issues using deep-learning
+								techniques.
+							</p>
+							<h5 class="mb-3">Ammari, A., Mahmoudi, R., Hmida, B. et al.</h5>
+							<a
+								class="btn"
+								href="https://link.springer.com/article/10.1007/s42979-022-01144-7"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/cancer.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Multiple instance learning for classifying histopathological
+								images of the breast cancer using residual neural network
+							</h4>
+							<p class="mb-4">
+								Digital histopathological images have complex textures and high
+								variability. Thus, classifying histopathological images requires
+								an accurate classification and recognition of the tissue
+								components in these images. In this article, we propose a novel
+								classification layer based on multiple instances learning (MIL).
+								In regular convolutional neural network (CNN) a flatten or a
+								global pooling layer is used before the fully connected layers.
+								However, in our proposed layer, we consider each last feature
+								map in the network as an instance that will be classified by the
+								output layer. Then, an aggregation function will be applied to
+								get the class of the image (bag). This mapping helps the model
+								to classify each feature independently to catch the
+								micro-objects of the complex tissue images. Also, our method
+								succeeded in achieving high accuracy without the preprocessing
+								of the images with color normalization, stain normalization, or
+								any other techniques. Additionally, we trained our models in two
+								different strategies. The first one is by combining the images
+								from all the magnification factors, and the second is by
+								training a model for each magnification factor. We show in this
+								work that our model outperforms several previous works on breast
+								cancer classification.
+							</p>
+							<h5 class="mb-3">
+								Adel Abdelli, Rachida Saouli, Khalifa Djemal, ImaneYoukana.
+							</h5>
+							<a
+								class="btn"
+								href="https://onlinelibrary.wiley.com/doi/10.1002/ima.22698"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/brain.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Fully Integrated Spatial Information to Improve FCM Algorithm
+								for Brain MRI Image Segmentation
+							</h4>
+							<p class="mb-4">
+								FCM algorithm is one of the well-known techniques for image
+								segmentation; it is based on an imprecise decision by using the
+								membership function. However, FCM algorithm fails to proceed
+								well enough in the presence of imaging artifacts due to its
+								performance without any consideration of spatial information. In
+								this paper, we propose two crucial modifications to the
+								conventional FCM algorithm to tackle its sensitivity against
+								noise. Firstly, the proposed algorithm provides full
+								consideration of the spatial constraint, wherein the influence
+								of neighboring pixels is defined according to two proposed
+								terms, a fuzzy similarity measure as well as the level of noise.
+								Secondly, we adopt a strategy to select the optimal pixel
+								between the central pixel and its neighboring pixels that can
+								better influence the segmentation performance in terms of
+								compactness and separation information. The proposed algorithm
+								is compared qualitatively and quantitatively with five existing
+								clustering methods in terms of cluster validity functions,
+								segmentation accuracy, tissue segmentation accuracy, and
+								computational time.
+							</p>
+							<h5 class="mb-3">Fouzia Chighoub, Rachida Saouli.</h5>
+							<a
+								class="btn"
+								href="https://link.springer.com/article/10.3103/S0146411622010047"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/brain.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								A review of approaches investigated for right ventricular
+								segmentation using short-axis cardiac MRI
+							</h4>
+							<p class="mb-4">
+								The right ventricular assessment is crucial to heart disease
+								diagnosis. Unfortunately, its segmentation is quite challenging
+								due to its intricate shape, ill-defined thin edges, large
+								variability among patients, and pathologies. Besides, it is a
+								very laborious and time-consuming task to be done manually.
+								Therefore, automated segmentation techniques are very suitable
+								to reduce the strain on the expert. Here, it is attempted to
+								review the taxonomy of the current RV segmentation approaches
+								adopted to handle the afore-mentioned issues. Enhanced by our
+								expert's interpretation, the results of over forty research
+								papers were evaluated based on several metrics such as the dice
+								metric and the Hausdorff distance. Synthetic tables and charts
+								were also used to discuss the reviewed approaches. The following
+								study shows that none of the existing methods has proved
+								accurate enough to meet all the RV challenging issues. Many
+								misestimated results were reported for several cases.
+								Eventually, global guidance is outlined, which supports
+								combining different methods to enhance the expected results
+								during the MRI short-axis slice processing.
+							</p>
+							<h5 class="mb-3">
+								Asma Ammari, Ramzi Mahmoudi, BadiiHmida, Rachida Saouli, Mohamed
+								HédiBedoui.
+							</h5>
+							<a
+								class="btn"
+								href="https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ipr2.12165"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/tumors.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Synthetic medical image generator for data augmentation and
+								anonymisation based on generative adversarial network for
+								glioblastoma tumors growth prediction
+							</h4>
+							<p class="mb-4">
+								Prediction methods of glioblastoma tumours growth constitute a
+								hard task due to the lack of medical data, which is mostly
+								related to the patients' privacy, the cost of collecting a large
+								medical data set, and the availability of related notations by
+								experts. In this study, the authors propose a synthetic medical
+								image generator (SMIG) with the purpose of generating synthetic
+								data based on the generative adversarial network in order to
+								provide anonymised data. In addition, to predict the
+								glioblastoma multiform tumour growth the authors developed a
+								tumour growth predictor based on end to end convolution neural
+								network architecture that allows training on a public data set
+								from the cancer imaging archive (TCIA), combined with the
+								generated synthetic data. The authors also highlighted the
+								impact of implicating a synthetic data generated using SMIG as a
+								data augmentation tool. Despite small data size provided by TCIA
+								data set, the obtained results demonstrate valuable tumour
+								growth prediction accuracy.
+							</p>
+							<h5 class="mb-3">
+								Adel Kamli, Rachida Saouli, Hadj Batatia, Mostefa Ben Naceur,
+								ImaneYoukana.
+							</h5>
+							<a
+								class="btn"
+								href="https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-ipr.2020.1141"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="service-item bg-light rounded h-100 p-5">
+							<h4
+								class="mb-3 p-3"
+								style="
+									color: rgb(255, 255, 255);
+									background-image: url('images/Ventricle.png');
+									border-radius: 10px;
+									min-height: 200px;
+								"
+							>
+								Deep-active-learning approach towards accurate right ventricular
+								segmentation using a two-level uncertainty estimation
+							</h4>
+							<p class="mb-4">
+								The Right Ventricle (RV) is currently recognised to be a
+								significant and important prognostic factor for various
+								pathologies. Its assessment is made possible using Magnetic
+								Resonance Imaging (CMRI) short-axis slices. Yet, due to the
+								challenging issues of this cavity, radiologists still perform
+								its delineation manually, which is tedious, laborious, and
+								time-consuming. Therefore, to automatically tackle the RV
+								segmentation issues, Deep-Learning (DL) techniques seem to be
+								the axis of the most recent promising approaches. Along with its
+								potential at dealing with shape variations, DL techniques highly
+								requires a large number of labelled images to avoid
+								over-fitting. Subsequently, with the produced large amounts of
+								data in the medical industry, preparing annotated datasets
+								manually is still time-consuming, and requires high skills to be
+								accomplished. To benefit from a significant number of labelled
+								and unlabelled CMRI images, a Deep-Active-Learning (DAL)
+								approach is proposed in this paper to segment the RV. Thus,
+								three main steps are distinguished. First, a personalised
+								labelled dataset is gathered and augmented to allow initial
+								learning. Secondly, a U-Net based architecture is modified
+								towards efficient initial accuracy. Finally, a two-level
+								uncertainty estimation technique is settled to enable the
+								selection of complementary unlabelled data. The proposed
+								pipeline is enhanced with a customised postprocessing step, in
+								which epistemic uncertainty and Dense Conditional Random Fields
+								are used. The proposed approach is tested on 791 images gathered
+								from 32 public patients and 1230 images of 50 custom subjects.
+								The obtained results show an increased dice coefficient from
+								0.86 to 0.91 with a decreased Hausdorff distance from 7.55 to
+								7.45.
+							</p>
+							<h5 class="mb-3">
+								Asma Ammari, Ramzi Mahmoudi, Badii Hmida, Rachida Saouli,
+								Mohamed Hedi Bedoui.
+							</h5>
+							<a
+								class="btn"
+								href="https://www.sciencedirect.com/science/article/abs/pii/S0895611122001380?via%3Dihub"
+								><i class="fa fa-newspaper text-primary me-3"></i>Journal</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- papers End -->
+
+		<!-- Footer Start -->
+		<%- include("./partials/footer.ejs") %>
+		<!-- Footer End -->
+
+		<!-- Back to Top -->
+		<a
+			href="#"
+			class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+			><i class="bi bi-arrow-up"></i
+		></a>
+
+		<!-- JavaScript Libraries -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="lib/wow/wow.min.js"></script>
+		<script src="lib/easing/easing.min.js"></script>
+		<script src="lib/waypoints/waypoints.min.js"></script>
+		<script src="lib/counterup/counterup.min.js"></script>
+		<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+		<script src="lib/tempusdominus/js/moment.min.js"></script>
+		<script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+		<script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+		<!-- Template Javascript -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

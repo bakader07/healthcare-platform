@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>List Page</title>
+		<link rel="stylesheet" href="css/list.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+	</head>
+
+	<body>
+		<%- include("./partials/navbar.ejs") %>
+
+		<div class="container">
+			<div class="list-container">
+				<h1>Models List</h1>
+
+				<ul id="fileList">
+					<% models.forEach(function(model) { %>
+					<li data-index="<%= model.id %>">
+						<a href="models/<%= model.id %>"><%= model.name %></a>
+					</li>
+					<% }); %>
+				</ul>
+
+				<div id="selectedItemContainer"></div>
+
+				<a class="add" href="/upload">Add Model</a>
+			</div>
+		</div>
+
+		<!-- <script src="js/list.js"></script> -->
+	</body>
+</html>

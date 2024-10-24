@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# Testing Prototype
+prototype/
+
+# File Upload Directory
+uploads/
+
+# Environment Files
+.env

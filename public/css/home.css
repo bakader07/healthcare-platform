@@ -1,0 +1,117 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 60px;
+}
+
+/* .nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #5B9BD5;
+}
+.nav-item {
+    display: flex;
+    flex: 1;
+}
+.nav-item > a {
+    padding: 20px;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.nav-item > a:hover {
+    color: black;
+    background-color: darkcyan;
+} */
+
+.legend {
+    padding: 10px 0;
+}
+.legend > img {
+    max-width: 100%;
+}
+
+.presentation {
+    position: relative;
+}
+.presentation::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/ai-mind.jpg");
+    filter: brightness(30%);
+}
+.presentation-content {
+    padding: 20px 60px;
+    position: relative;
+    color: white;
+    /* font-size: 1.2em; */
+    line-height: 1.6;
+}
+.presentation-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.presentation-title-container > h2 {
+    font-weight: 900;
+    flex: 1;
+}
+.presentation-title-container > img {
+    max-height: 120px;
+}
+
+footer {
+    margin: 0;
+    background-color: darkcyan;
+}
+footer > ul {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+footer > ul > li {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}

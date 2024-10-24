@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>TIASM</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta content="" name="keywords" />
+		<meta content="" name="description" />
+
+		<!-- Favicon -->
+		<link href="images/favicon.ico" rel="icon" />
+
+		<!-- Google Web Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Icon Font Stylesheet -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
+
+		<!-- Libraries Stylesheet -->
+		<link href="lib/animate/animate.min.css" rel="stylesheet" />
+		<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+		<link
+			href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+			rel="stylesheet"
+		/>
+
+		<!-- Customized Bootstrap Stylesheet -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Template Stylesheet -->
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- Spinner Start -->
+		<div
+			id="spinner"
+			class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+		>
+			<div
+				class="spinner-grow text-primary"
+				style="width: 3rem; height: 3rem"
+				role="status"
+			>
+				<span class="sr-only">Loading...</span>
+			</div>
+		</div>
+		<!-- Spinner End -->
+
+		<%- include("./partials/header.ejs") %>
+
+		<!-- Page Header Start -->
+		<div
+			class="container-fluid page-header py-5 mb-5 wow fadeIn"
+			data-wow-delay="0.1s"
+		>
+			<div class="container py-5">
+				<h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
+				<!-- <nav aria-label="breadcrumb animated slideInDown">
+					<ol class="breadcrumb text-uppercase mb-0">
+						<li class="breadcrumb-item">
+							<a class="text-white" href="#">Home</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a class="text-white" href="#">Pages</a>
+						</li>
+						<li class="breadcrumb-item text-primary active" aria-current="page">
+							About
+						</li>
+					</ol>
+				</nav> -->
+			</div>
+		</div>
+		<!-- Page Header End -->
+
+		<!-- About Start -->
+		<div class="container-xxl py-5">
+			<div class="container">
+				<div class="row g-5">
+					<div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+						<div class="d-flex flex-column">
+							<img
+								class="img-fluid rounded w-75 align-self-end"
+								src="images/tiasm-team.jpg"
+								alt=""
+							/>
+							<img
+								class="img-fluid rounded w-50 bg-white pt-3 pe-3"
+								src="images/tiasm-project.jpg"
+								alt=""
+								style="margin-top: -25%"
+							/>
+						</div>
+					</div>
+					<div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+						<p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
+						<h1 class="mb-4">Get Know About Us And Our Work!</h1>
+						<p>
+							This team emerges from cooperation between the two partners: LINFI
+							research laboratory (Intelligent Computing Laboratory) of the
+							University of Biskra on one side, and the local health
+							establishment Djemourah, Biskra on the other side.
+						</p>
+						<p class="mb-4">
+							This team is therefore composed on the one hand of a set of
+							permanent researchers affiliated with the LINFI laboratory and on
+							the other hand of a set of doctors, specialists and nursing
+							assistants on the other side.
+						</p>
+						<p>
+							Computer scientists are responsible for developing AI solutions
+							for the prediction and diagnosis of diseases in children and
+							babies (diabetes, deficiency anemia, etc.) and doctors and
+							researchers in the medical sector will have the role of guiding,
+							assisting and supervising computer scientists in their research.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- About End -->
+
+		<!-- Feature Start -->
+		<div class="container-fluid bg-primary overflow-hidden my-5 px-lg-0">
+			<div class="container feature px-lg-0">
+				<div class="row g-0 mx-lg-0">
+					<div
+						class="col-lg-6 feature-text py-5 wow fadeIn"
+						data-wow-delay="0.1s"
+					>
+						<div class="p-lg-5 ps-lg-0">
+							<h1 class="text-white mb-4">More About The Team And Its Goals</h1>
+							<p class="text-white mb-4 pb-2">
+								The team coordinator is Prof. Laid Kahloul from Biskra
+								University and the two partners are represented by Prof.
+								Boutarfaia Ahmed rector of the University of Biskra and Mr.
+								Ziane Ghalem (Director of the Djemourah local health
+								establishment, Biskra).
+							</p>
+							<p class="text-white mb-4 pb-2">
+								The team must work and coordinate its activities in order to
+								understand the intrinsic characteristics of these diseases, to
+								understand the factors that make the newborn, the baby, and the
+								child targets of such diseases, to propose AI and IoT techniques
+								to be able to collect data from sick children, pregnant women,
+								analyze them, make diagnoses, and make decisions.
+							</p>
+							<p class="text-white mb-4 pb-2">
+								The team must lead meetings, conferences and must produce
+								deliverables: software, devices and reports on its progress and
+								results.
+							</p>
+						</div>
+					</div>
+					<div
+						class="col-lg-6 pe-lg-0 wow fadeIn"
+						data-wow-delay="0.5s"
+						style="min-height: 400px"
+					>
+						<div class="position-relative h-100">
+							<img
+								class="position-absolute img-fluid w-100 h-100"
+								src="images/tiasm-banner.jpg"
+								style="object-fit: cover"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Feature End -->
+
+		<!-- Team Start -->
+		<div class="container-xxl py-5">
+			<div class="container">
+				<div
+					class="text-center mx-auto mb-5 wow fadeInUp"
+					data-wow-delay="0.1s"
+					style="max-width: 600px"
+				>
+					<p class="d-inline-block border rounded-pill py-1 px-4">
+						Researchers
+					</p>
+					<h1>Professor Members</h1>
+				</div>
+
+				<div class="row g-4">
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/testimonial-2.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Pr. Laid Kahloul</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/kazar.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Pr. Okba Kazar</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/Saouli.png"
+									alt=""
+									height="150"
+									width="300"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Pr. Rachida Saouli</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/team-2.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Belouaar Houcine</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/team-3.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Samir Tigane</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/meftah.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Meftah Zouai</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/remadna.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Ikram Remadna</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/team-4.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Siham Zroug</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/Ammari.jpeg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Asma Ammari</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/ramdani.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Mohamed Ramdani</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/Aloui.png"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Ahmed Aloui</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/youkana.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Imane Youkana</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Team End -->
+
+		<!-- Student Team start -->
+		<div class="container-xxl py-5">
+			<div class="container">
+				<div
+					class="text-center mx-auto mb-5 wow fadeInUp"
+					data-wow-delay="0.1s"
+					style="max-width: 600px"
+				>
+					<p class="d-inline-block border rounded-pill py-1 px-4">Partners</p>
+					<h1>Team Partners</h1>
+				</div>
+
+				<div class="row g-4">
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/partner.png" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Mr. Ziane ghalem</h5>
+								<p class="text-primary">Director of EPSP Biskra</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href="">
+										<i class="fab fa-linkedin"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/profile.png" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Fatma Kahloul</h5>
+								<p class="text-primary">Pediatric Doctor</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href="">
+										<i class="fa-brands fa-google"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/profile.png" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Sekiou Mohamed</h5>
+								<p class="text-primary">Doctor</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href="">
+										<i class="fa-brands fa-google"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/profile.png" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Belkhiri Fatma Ymina</h5>
+								<p class="text-primary">Epidiomology Doctor</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href="">
+										<i class="fa-brands fa-google"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/profile.png" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Yahia Safaa</h5>
+								<p class="text-primary">Health Technician</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href="">
+										<i class="fab fa-linkedin"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/profile.png" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Belkis ElAlouani</h5>
+								<p class="text-primary">Health Technician</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href="">
+										<i class="fa-brands fa-google"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/profile.png" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Sekkai Hanifa</h5>
+								<p class="text-primary">IT</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href="">
+										<i class="fa-brands fa-google"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/profile.png" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Rouaged Sara</h5>
+								<p class="text-primary">IT</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href="">
+										<i class="fa-brands fa-google"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Student Team End -->
+		<div class="container-xxl py-5">
+			<div class="container">
+				<div
+					class="text-center mx-auto mb-5 wow fadeInUp"
+					data-wow-delay="0.1s"
+					style="max-width: 600px"
+				>
+					<p class="d-inline-block border rounded-pill py-1 px-4">
+						Researchers
+					</p>
+					<h1>PHD Student Members</h1>
+				</div>
+
+				<div class="row g-4">
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/amira.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Amira Ailane</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img
+									class="img-fluid"
+									src="images/Nedjma.jpg"
+									alt=""
+									height="150"
+								/>
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Dr. Nedjma Abidallah</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Student Team start -->
+		<div class="container-xxl py-5">
+			<div class="container">
+				<div
+					class="text-center mx-auto mb-5 wow fadeInUp"
+					data-wow-delay="0.1s"
+					style="max-width: 600px"
+				>
+					<p class="d-inline-block border rounded-pill py-1 px-4">
+						Researchers
+					</p>
+					<h1>Master Student Members</h1>
+				</div>
+
+				<div class="row g-4">
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/testimonial-3.jpg" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Abdelkader Abdelbaki</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href="">
+										<i class="fab fa-google"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/testimonial-1.jpg" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Baissi Fadia</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+						<div class="team-item position-relative rounded overflow-hidden">
+							<div class="overflow-hidden">
+								<img class="img-fluid" src="images/amani.jpg" alt="" />
+							</div>
+							<div class="team-text bg-light text-center p-4">
+								<h5>Othmane Amani</h5>
+								<p class="text-primary">Computer Science</p>
+								<div class="team-social text-center">
+									<a class="btn btn-square" href=""
+										><i class="fab fa-facebook-f"></i
+									></a>
+									<a class="btn btn-square" href=""
+										><i class="fab fa-google"></i
+									></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Student Team End -->
+
+		<!-- Footer Start -->
+		<%- include("./partials/footer.ejs") %>
+		<!-- Footer End -->
+
+		<!-- Back to Top -->
+		<a
+			href="#"
+			class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+			><i class="bi bi-arrow-up"></i
+		></a>
+
+		<!-- JavaScript Libraries -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="lib/wow/wow.min.js"></script>
+		<script src="lib/easing/easing.min.js"></script>
+		<script src="lib/waypoints/waypoints.min.js"></script>
+		<script src="lib/counterup/counterup.min.js"></script>
+		<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+		<script src="lib/tempusdominus/js/moment.min.js"></script>
+		<script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+		<script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+		<!-- Template Javascript -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

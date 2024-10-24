@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>File Upload Demo</title>
+		<link rel="stylesheet" href="../css/photo.css" />
+		<link rel="stylesheet" href="../css/navbar.css" />
+	</head>
+
+	<body>
+		<%- include("./partials/navbar.ejs") %>
+
+		<div class="container">
+			<form
+				action="/models/<%= model.id %>"
+				class="form-container"
+				method="POST"
+				enctype="multipart/form-data"
+			>
+				<h1>Test Model</h1>
+				<h2><%= model.name ?? "" %></h2>
+
+				<input type="file" id="fileInput" name="image" accept="image/*" />
+				<button>Test</button>
+
+				<!-- <img id="uploadedPhoto" alt="Uploaded Photo" /> -->
+			</form>
+		</div>
+
+		<div id="displayText"></div>
+
+		<!-- <script src="js/photo.js"></script> -->
+	</body>
+</html>
